@@ -1,0 +1,22 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+
+  setup:
+    cmds:
+      - pip install --user tpl
+  
+  template:
+    aliases:
+      - t
+    cmds:
+      - tpl --yaml config.yml autoexec.cfg.tpl > autoexec.cfg

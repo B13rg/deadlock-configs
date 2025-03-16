@@ -1,0 +1,10 @@
+settings:
+  network:
+    enabled: true
+  graphics:
+    enabled: true
+  bindings:
+    enabled: true
+  user:
+    enabled: true
+    cpu_bound: true
