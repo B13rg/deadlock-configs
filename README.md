@@ -2,6 +2,12 @@
 
 This repository contains a collection of configs that can be used in Deadlock.
 
+* Config location:
+```
+${SteamLibrary}/steamapps/common/Deadlock/game/citadel/cfg
+```
+* [Deadlock Forums](https://forums.playdeadlock.com/)
+* [SteamDB](https://steamdb.info/app/1422450/info/)
 
 
 ## References
